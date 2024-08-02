@@ -60,9 +60,15 @@ git config --global user.email "email@example.com"
 - git clone https://github.com/1581638690/tests.git 克隆这个仓库
 - git remote 列出来当前所有的仓库别命
 - git remote -v 列出来仓库的详细西信息
-- git push origin master 将master分支中文件推送到 我们仓库origin中
+- git push - u origin master 将master分支中文件推送到 我们仓库origin中
 
 - git remote add  tst1(别名) https://github.com/1581638690/tests1.git 新增远程仓库
 - git fetch tst1 （获取远程仓库的版本信息，而我本地没有的版本信息）
 - git remote rename tst1 test1 重命名仓库
+<<<<<<< HEAD
 - git remote remove test1 删除远程仓库
+=======
+- git remote remove test1 删除远程仓库
+
+>>>>>>> d858255 (更新远程仓库push代码24/8/2)
+git
