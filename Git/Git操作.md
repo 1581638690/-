@@ -65,3 +65,9 @@ git config --global user.email "email@example.com"
 - git remote add  tst1(别名) https://github.com/1581638690/tests1.git 新增远程仓库
 - git fetch tst1 （获取远程仓库的版本信息，而我本地没有的版本信息）
 - git remote rename tst1 test1 重命名仓库
+
+## 分支操作
+- git branch testing 创建分支，创建的分支将与当前主分支的提交记录保持一致
+- git checkout testing 切换分支信息，切换到testing分支
+- git log --oneline --decorate 查看当前分支信息
+- git log --oneline --decorate --graph --all 查看所有分支的提交信息
