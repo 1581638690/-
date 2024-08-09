@@ -71,3 +71,12 @@ git config --global user.email "email@example.com"
 - git checkout testing 切换分支信息，切换到testing分支
 - git log --oneline --decorate 查看当前分支信息
 - git log --oneline --decorate --graph --all 查看所有分支的提交信息
+- git branch -v 查看分支最终提交信息
+- git checkout -b (分支名)  直接切换到新分支名
+- git merge 分支名 合并分支信息
+- git branch -d 分支名 删除分支信息
+-  git branch -D 分支名 强制删除分支信息
+  ### 分支流程图
+  ！[分支流程图](./git分支1.png)
+  ### 最终合并流程图
+  ！[分支流程图](./git分支.png)
