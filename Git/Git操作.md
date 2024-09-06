@@ -25,9 +25,10 @@ git config --global user.email "email@example.com"
     - git log -p -2 查看前2条修改历史
 
 ## 覆盖提交记录/撤销修改记录 8-1
-- 覆盖提交记录
+- 覆盖提交记录 修改上次提交信息名称
     - 在第一次提交之后，使用git commit --amend 命令 i 输入修改记录名称，也可以将未添加的文件写入文件中
     - wq! 退出
+    - none文件 编辑 ctrl+s 保存  ctrl+x退出 按y确认保存退出
 - 取消暂存文件
     - git reset HEAD <file>   针对已经 git add 的文件，撤销暂存的修改记录，变成未暂存之前的最初状态
 - 撤销修改记录
@@ -80,3 +81,10 @@ git config --global user.email "email@example.com"
   ！[分支流程图](./git分支1.png)
   ### 最终合并流程图
   ！[分支流程图](./git分支.png)
+  
+## 公司fbi操作 gitee.com
+- git clone --branch lite11-2 --single-branch https://gitee.com/openfbi/fbi.git ~ 获取lite11-2分支信息
+- git config --global --add safe.directory /home/zhds/rzc/fbi ~设置fbi目录的安全性
+- git config --global user.name '任智超' ~ 设置全局变量账户 （去掉--global 就是当前文件）
+- git config --global user.email '1581638690@qq.com' ~设置全局变量邮箱  （去掉--global 就是当前文件）
+- 
