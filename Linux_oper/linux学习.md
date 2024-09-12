@@ -27,8 +27,8 @@ network:
 - sudo tar -czvf xx.tar.gz xx  ~压缩文件
 
 ## 解压/压缩gz文件
-- sudo gzip filename
-- sudo gunzip filename.gz
+- sudo gzip filename   ~压缩文件
+- sudo gunzip filename.gz  ~解压文件
 
 ## sh执行权限
 - sudo chmod +x xx.sh
@@ -37,3 +37,7 @@ network:
 - scp /path/file username@remote_host:/path/file
 ## 从远程主机复制文件到本地
 - scp username@remote_host:/path/file /path/file
+
+## zip解压/安装文件
+- sudo unzip file.zip ~解压zip文件
+- sudo zip file.zip file ~压缩文件为zip
